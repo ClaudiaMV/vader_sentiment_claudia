@@ -8,11 +8,6 @@ The CSV file must include a column named text containing the text data for senti
 
 The output file is saved in the same directory as the script and includes sentiment scores and labels for each text entry.
 
-## Script Details
-
-**Working Directory**: The script automatically sets the working directory to: /Users/claudiamoralesvaliente/Library/CloudStorage/OneDrive-TheUniversityofWesternOntario/PhD/Study 2/Python/VADER
-
-
 
 ## Main Steps:
 
