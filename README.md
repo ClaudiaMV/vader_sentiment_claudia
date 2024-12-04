@@ -1,34 +1,29 @@
-# vader_sentiment_claudia
-VADER analysis over autobiographical narrations
-File Structure
+## File Structure
 
-Input file: all_participants_raw_text.csv
+**Input file:** all_participants_raw_text.csv
 
 The CSV file must include a column named text containing the text data for sentiment analysis.
 
-Output file: vader_analysis.csv
+**Output file**: vader_analysis.csv
 
 The output file is saved in the same directory as the script and includes sentiment scores and labels for each text entry.
 
-Script Details
+## Script Details
 
-Working Directory:
-The script automatically sets the working directory to:
+**Working Directory**: The script automatically sets the working directory to: /Users/claudiamoralesvaliente/Library/CloudStorage/OneDrive-TheUniversityofWesternOntario/PhD/Study 2/Python/VADER
 
-/Users/claudiamoralesvaliente/Library/CloudStorage/OneDrive-TheUniversityofWesternOntario/PhD/Study 2/Python/VADER
 
-Ensure the input file is located in this directory.
 
-Main Steps:
+## Main Steps:
 
-Load the dataset from all_participants_raw_text.csv.
+- Load the dataset from all_participants_raw_text.csv.
 
-Check for the presence of the text column.
+- Check for the presence of the text column.
 
-Analyze sentiment for each text entry using VADER.
+- Analyze sentiment for each text entry using VADER.
 
-Extract and save individual sentiment scores (neg, neu, pos, compound).
+- Extract and save individual sentiment scores (neg, neu, pos, compound).
 
-Classify the overall sentiment into Positive, Negative, or Neutral.
+- Classify the overall sentiment into Positive, Negative, or Neutral.
 
-Save the results to vader_analysis.csv.
+- Save the results to vader_analysis.csv.
